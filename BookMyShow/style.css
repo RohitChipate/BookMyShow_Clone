@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+.first{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:4rem ;
+    padding-right:4rem ;
+}
+.logo-name img{
+    height: 50px;
+}
+.searching{
+    width: 500px;
+    max-width: 50%;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+
+.search > button{
+    font-size: 1rem;
+    margin-left: .5rem;
+    background-color: rgb(248, 68, 100);
+    width: 80px;
+    line-height: 25px;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border-style: none;
+}
+.cities select{
+   
+    border-style: none;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.sign button{
+    font-size: 1rem;
+    background-color: rgb(248, 68, 100);
+    width: 67px;
+    line-height: 25px;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border-style: none;
+}
+.second{
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding-left:4rem ;
+    padding-right:4rem ;
+}
+.left,.right{
+    display: flex;
+    justify-content: space-around;
+}
+.left button,.right button{
+    border-style: none;
+    margin: 2rem;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+}
+.hero{
+    display: flex;
+    overflow-x: auto;    
+}
+.image img{
+    height: 200px;
+    width: 1500px;
+    margin: .5rem;
+}
+
+.mover{
+    text-align: left;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.mover > h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.movie{
+    display:flex ;
+    overflow-x:scroll;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}    
+.images{
+    height: 400px;
+    border-radius: 10px;
+}
+.card{
+    margin: .5rem;
+    text-align: left;
+}
+.type{
+    color:rgb(102, 102, 102);
+    font-weight: normal;
+}
+h3{
+    font-weight: bold;
+    line-height: 1.5;
+}
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bot img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+.card2 img{
+    height: 200px;
+    width: 200px;
+    margin-right:2rem;
+}
+.show{
+    display:flex ;
+    overflow-x:scroll;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
